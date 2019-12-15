@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Posts Feed Backend API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zAhmedAly/postsfeedapi.git"
+  },
+  "author": "Ahmed Aly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zAhmedAly/postsfeedapi/issues"
+  },
+  "homepage": "https://github.com/zAhmedAly/postsfeedapi#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}
